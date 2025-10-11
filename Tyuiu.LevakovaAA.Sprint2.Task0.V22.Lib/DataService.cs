@@ -16,7 +16,7 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task0.V22.Lib
             res[1] = x != y;
             res[2] = x - 3100 < y;
             res[3] = x > y;
-            res[4] = x - 3101 <= y;
+            res[4] = x - 3100 <= y;
             res[5] = x - 3100 >= y;
             return res;
         }

@@ -28,7 +28,7 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task0.V22
             Console.WriteLine("* Спринт #2                                                               *");
             Console.WriteLine("* Написать программу из операций сравнений (==, !=, <, >, <=, >=) и       *");
             Console.WriteLine("* арифметических выражений, которая вернет логическую последовательность  *");
-            Console.WriteLine("*(False, True, True, True, True, False), при x = 3105, y = 77             *");
+            Console.WriteLine("*(False, True, True, True, True, False), при x = 3105, y = 77.            *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
