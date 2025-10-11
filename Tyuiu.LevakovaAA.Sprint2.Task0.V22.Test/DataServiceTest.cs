@@ -3,10 +3,10 @@ using System;
 using Tyuiu.LevakovaAA.Sprint2.Task0.V22.Lib;
 namespace Tyuiu.LevakovaAA.Sprint2.Task0.V22.Test
 {
-[TestClass]
+    [TestClass]
     public sealed class DataServiceTest
     {
-    [TestMethod]
+        [TestMethod]
         public void ValidGetCompareOperations()
         {
             DataService ds = new DataService();

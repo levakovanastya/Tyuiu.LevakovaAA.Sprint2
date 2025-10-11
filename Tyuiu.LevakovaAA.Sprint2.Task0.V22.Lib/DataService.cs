@@ -8,8 +8,7 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task0.V22.Lib
 {
     public class DataService : ISprint2Task0V22
     {
-        public bool[]
-        GetCompareOperations(int x, int y)
+        public bool[] GetCompareOperations(int x, int y)
         {
             bool[] res = new bool[6];
             res[0] = x == y;
