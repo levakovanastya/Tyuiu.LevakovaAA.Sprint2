@@ -3,51 +3,43 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.LevakovaAA.Sprint2.Task2.V25.Lib;
-namespace Tyuiu.LevakovaAA.Sprint2.Task2.V25
+using Tyuiu.LevakovaAA.Sprint2.Task3.V5.Lib;
+namespace Tyuiu.LevakovaAA.Sprint2.Task3.V5
 {
     class Programm
     {
         static void Main(string[] args)
         {
+            DataService ds = new DataService();
+
             Console.Title = "Спринт #2 | Выполнила: Левакова А.А. | СМАРТб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: логические операции                                               *");
-            Console.WriteLine("* Задание 2                                                               *");
-            Console.WriteLine("* Вариант #25                                                             *");
+            Console.WriteLine("* Тема: Вложенные операторы if - else                                     *");
+            Console.WriteLine("* Задание 3                                                               *");
+            Console.WriteLine("* Вариант #5                                                              *");
             Console.WriteLine("* Выполнила: Левакова А.А. | СМАРТб-25-1                                  *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Написать программу на, которая запрашивает целые значения с клавиатуры  *");
-            Console.WriteLine("* и вычисляет находится ли точка с координатами X,Y                       *");
-            Console.WriteLine("* в заштрихованной области.                                               *");
+            Console.WriteLine("* Написать программу, которая вычисляет требуемое значение функции Y      *");
+            Console.WriteLine("* с использованием вложенных оператор if-else, где пользователь вводит    *");
+            Console.WriteLine("* значение переменной X с клавиатуры.                                     *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Введите значение переменной X: ");
-            int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите значение переменной Y: ");
-            int y = Convert.ToInt32(Console.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine());
 
-            DataService ds = new DataService();
-            bool res = ds.CheckDotInShadedArea(x, y);
+            double res = ds.Calculate(x);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            if (res)
-            {
-                Console.WriteLine("Точка находится в закрашенной области");
-            }
-            else
-            {
-                Console.WriteLine("Точка не находится в закрашенной области");
-            }
+            Console.WriteLine("Значение функции = " + res);
             Console.ReadKey();
         }
     }
