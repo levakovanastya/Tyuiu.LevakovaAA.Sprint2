@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tyuiu.LevakovaAA.Sprint2.Task1.V28.Lib;
-namespace Tyuiu.LevakovaAA.Sprint2.Task0.V22
+namespace Tyuiu.LevakovaAA.Sprint2.Task1.V28
 {
     class Programm
     {
