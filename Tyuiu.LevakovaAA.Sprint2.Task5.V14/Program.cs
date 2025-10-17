@@ -33,7 +33,6 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task5.V14
             Console.WriteLine("Введите значение переменной d: ");
             int d = Convert.ToInt32(Console.ReadLine());
 
-            int r;
             string res;
 
             if ((d < 1) || (d > 7))
@@ -42,12 +41,12 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task5.V14
             }
             else
             {
-                r = (d + k - 1) % 7;
-                if (r == 0)
+                d = (d + k - 1) % 7;
+                if (d == 0)
                 {
-                    r = 7;
+                    d = 7;
                 }
-                res = "День недели: " + ds.FindDayName(k, r);
+                res = "День недели: " + ds.FindDayName(k, d);
             }
 
             Console.WriteLine("***************************************************************************");
