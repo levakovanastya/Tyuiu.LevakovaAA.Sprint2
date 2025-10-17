@@ -68,7 +68,7 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task6.V11
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("09.09.2023");
+            Console.WriteLine(res);
             Console.ReadKey();
         }
     }
