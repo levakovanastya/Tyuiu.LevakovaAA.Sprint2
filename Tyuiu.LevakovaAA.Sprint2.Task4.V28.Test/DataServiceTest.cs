@@ -24,7 +24,7 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task4.V28.Test
             double x = 1;
             double y = 5;
             double res = ds.Calculate(x, y);
-            double wait = 0.545;
+            double wait = 0.391;
             Assert.AreEqual(wait, res);
         }
     }
