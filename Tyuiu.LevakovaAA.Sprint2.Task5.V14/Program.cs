@@ -14,7 +14,7 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task5.V14
             Console.Title = "Спринт #2 | Выполнила: Левакова А.А. | СМАРТб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Тернарный оператор                                                *");
+            Console.WriteLine("* Тема: Оператор switch                                                   *");
             Console.WriteLine("* Задание 5                                                               *");
             Console.WriteLine("* Вариант #14                                                             *");
             Console.WriteLine("* Выполнила: Левакова А.А. | СМАРТб-25-1                                  *");
