@@ -47,7 +47,7 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task6.V11
                 int x = int.Parse(ds.FindDateOfNextDay(g, m, n));
                 if ((n + 1) > x)
                 {
-                    n = 1;
+                    n = 2;
                     m = m + 1;
                     if (m > 12)
                     {
@@ -57,7 +57,7 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task6.V11
                 }
                 else
                 {
-                    n = n + 1;
+                    n = n + 2;
                 }
                     string nn = n.ToString().PadLeft(2, '0');
                     string mm = m.ToString().PadLeft(2, '0');
