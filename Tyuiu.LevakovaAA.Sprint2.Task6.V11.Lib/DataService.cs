@@ -44,7 +44,7 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task6.V11.Lib
             string nn = n.ToString().PadLeft(2, '0');
             string mm = m.ToString().PadLeft(2, '0');
             string gg = g.ToString().PadLeft(4, '0');
-             string res = "Дата следующего дня: " + nn + "." + mm + "." + gg;
+             string res = nn + "." + mm + "." + gg;
             return res;
         }
     }
