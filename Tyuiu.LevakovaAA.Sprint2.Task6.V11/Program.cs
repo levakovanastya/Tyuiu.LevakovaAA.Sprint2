@@ -44,25 +44,7 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task6.V11
             }
             else
             {
-                int x = int.Parse(ds.FindDateOfNextDay(g, m, n));
-                if ((n + 1) > x)
-                {
-                    n = 1;
-                    m = m + 1;
-                    if (m > 12)
-                    {
-                        m = 1;
-                        g = g + 1;
-                    }
-                }
-                else
-                {
-                    n = n + 1;
-                }
-                    string nn = n.ToString().PadLeft(2, '0');
-                    string mm = m.ToString().PadLeft(2, '0');
-                    string gg = g.ToString().PadLeft(4, '0');
-                    res = "Дата следующего дня: " + nn + "." + mm + "." + gg;
+                res = ds.FindDateOfNextDay(g, m, n);
             }
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
