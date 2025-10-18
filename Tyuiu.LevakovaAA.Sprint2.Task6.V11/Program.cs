@@ -61,7 +61,7 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task6.V11
                 }
                     string nn = n.ToString().PadLeft(2, '0');
                     string mm = m.ToString().PadLeft(2, '0');
-                    string gg = g.ToString().PadLeft(2, '0');
+                    string gg = g.ToString().PadLeft(4, '0');
                     res = "Дата следующего дня: " + nn + "." + mm + "." + gg;
             }
             Console.WriteLine("***************************************************************************");
