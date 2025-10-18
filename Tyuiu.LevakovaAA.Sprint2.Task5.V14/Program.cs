@@ -35,17 +35,12 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task5.V14
 
             string res;
 
-            if ((d < 1) || (d > 7))
+            if (k < 1 | k > 365 | d < 1 | d > 7)
             {
                 res = "Введено неверное значение";
             }
             else
             {
-                d = (d + k - 1) % 7;
-                if (d == 0)
-                {
-                    d = 7;
-                }
                 res = "День недели: " + ds.FindDayName(k, d);
             }
 

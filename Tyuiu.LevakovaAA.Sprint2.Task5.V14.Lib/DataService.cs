@@ -10,7 +10,9 @@ namespace Tyuiu.LevakovaAA.Sprint2.Task5.V14.Lib
         public string FindDayName(int k, int d)
         {
             string res;
-            switch(d)
+            int o = (k - 1) % 7;
+            int h = (d + o - 1) % 7 + 1;
+            switch(h)
             {
                 case 1:
                     res = "Понедельник";
